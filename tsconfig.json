@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist",
+        "rootDir": "src",
+        "declaration": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "strict": false,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "build/**/*",
+        "migration/**/*"
+    ]
+}
